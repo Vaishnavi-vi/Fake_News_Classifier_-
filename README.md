@@ -48,5 +48,21 @@ Fake news spreads rapidly on the internet, making automatic detection essential.
 Used Word2vec Embedding techiniqe `to convert words to sequences with a fixed length`.
 
 ### 3. Model Architectures
+- Simple RNN
+- Bidirectional RNN
+  
+---
+
+## 📊 Performance Comparison
+
+| Metric        | Simple RNN | Bidirectional RNN |
+|---------------|------------|-------------------|
+| Accuracy      | 87.5%      | 99.9%             |
+| Precision     | 83.7%      | 100%              |
+| Recall        | 93.8%      | 99%               |
+| F1-Score      | 83.84%     | 99%               |
+
+> ✅ **Conclusion**: The **Bidirectional RNN** outperforms the **Simple RNN** in all metrics due to its ability to capture both past and future context in the sequence.
+
 
 
